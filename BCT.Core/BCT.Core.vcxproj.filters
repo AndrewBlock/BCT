@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Text">
+      <UniqueIdentifier>{b035644f-9f1d-47b0-9b26-ca9c2ade7242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{d4e22e92-fd2e-4ef4-835e-8ce3e3b46d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{10e2d4bc-ee39-439e-af4c-9011e70c4159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{37b8954a-d95b-4104-9a17-5e6bf4327e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{5a934940-b1d4-4a5b-ade8-2ed7d7707ce5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Text\String.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Control.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Window.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\Exception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="BCT.Core.h" />
+    <ClInclude Include="BCT.Core.Include.h" />
+    <ClInclude Include="Main\Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Type.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Text\String.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Control.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Window.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions\Exception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Application.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Type.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

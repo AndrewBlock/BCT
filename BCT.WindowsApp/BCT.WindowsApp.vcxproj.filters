@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c3330741-8f93-46f9-8440-3a04d2210b25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\MainApplication.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BCT.WindowsApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\MainApplication.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
